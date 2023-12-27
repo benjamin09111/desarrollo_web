@@ -1,0 +1,49 @@
+<main style="display: flex; justify-content: center; align-items: center;  background-image: url('../images/7032067.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;">
+
+            <div class="big-container" style="display: flex; align-items: center; justify-content: center;">
+
+            <form action="/transfer/new" method="POST" class="login-form">
+
+                <div class="container" style="color: white;">
+                    <h1>Transfer To</h1>
+                </div>
+
+                <div class="text-cont">
+
+                    <div>
+                        <label class="lbl" style="font-size: 1.8rem;">Your amount is: <b>${{dinero}}</b></label>
+                    </div>
+                    <div>
+                        <label class="lbl" style="font-size: 1.8rem;">Max transfer amount: 300.000</b></label>
+                    </div>
+
+                    <div class="mini-text-cont">
+                                
+                        <div class="input-container">
+                            <label class="lbl">Destiny Email</label>
+                            <input type="email" name="destiny" required autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="mini-text-cont">
+                        <div class="input-container">
+                            <label class="lbl">Amount</label>
+                            <input type="number" name="amount" required autocomplete="off">
+                        </div>
+        
+                        <div class="input-container">
+                            <label class="lbl">Description</label>
+                            <input type="text" name="description"  required autocomplete="off">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-login">Transfer</button>
+    
+                </div>
+    
+            </form>
+        </div>
+</main>

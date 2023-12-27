@@ -1,0 +1,32 @@
+<main style="display: flex; justify-content: center; align-items: center;  background-image: url('../images/7032067.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;">
+
+        <div class="big-container" style="display: flex; justify-content: center; align-items: center;">
+
+            <form action="/recharge" method="POST" class="login-form">
+                <div class="container">
+                    <h1>Recharge</h1>
+                </div>
+
+                <div class="text-cont">
+
+                    <div>
+                        <label class="lbl" style="font-size: 1.8rem;">Your amount is: <b>${{dinero}}</b></label>
+                    </div>
+
+                    <div class="mini-text-cont">
+                        <div class="input-container">
+                            <label class="lbl">Amount</label>
+                            <input type="number" name="amount" required autocomplete="off">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-login">Recharge</button>
+    
+                </div>
+    
+            </form>
+        </div>
+</main>

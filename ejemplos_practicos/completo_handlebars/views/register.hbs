@@ -1,0 +1,47 @@
+<div style="width: 100%; position: relative; display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;">
+    <div style="
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 50px;
+    ">
+        {{>messages}}
+        {{>badmessages}}
+        {{>errors}}
+    </div>
+    <main class="main-dis" style="position: relative;">
+
+        <form action="" method="POST" class="login-form shadow">
+            <section class="title-container">
+            <h1><a>Unity Bank</a></h1>
+            <h2 style="color: white; font-size: 2rem;">Create your account</h2>
+            </section>
+
+            <div class="input-container">
+                <label class="lbl">Email</label>
+                <input type="email" name="email" placeholder="Your Email" value="{{email}}" required>
+            </div>
+
+            <div class="input-container">
+                <label class="lbl">Password</label>
+                <input type="password" name="password" placeholder="Your password" required>
+            </div>
+            <div class="input-container">
+                <label class="lbl">Repeat password</label>
+                <input type="password" name="confirm_password" placeholder="Repeat your password" required>
+            </div>
+                <button type="submit" style="font-size: 2rem; margin-top: 2rem;">Sign up</button>
+
+            <div class="text-container">
+                <p>Already a member? <a href="/login" class="btn-singup">Sign in</a></p>
+            </div>
+
+        </form>
+</main>
+</div>

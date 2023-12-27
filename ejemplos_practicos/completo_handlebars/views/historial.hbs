@@ -1,0 +1,87 @@
+<main>
+        <article style="
+        margin: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/home-pic.jpg');
+    padding: 3rem;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 2rem;">
+            <div style="
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 0, 0, 0.6);
+            position: absolute;
+            z-index: 1;
+            "></div>
+            <div class="title-info" style="font-size: 3rem; position: relative; z-index: 500;">
+                Account information
+            </div>
+
+            <div style="display: flex; gap: 2rem; margin: 2rem 0rem; position: relative; z-index: 500;">
+                <div class="mount">
+                <b>User: {{name}}</b>
+                </div>
+                
+                <div class="mount">
+                <b>Amount in my account: ${{dinero}}</b>
+                </div>
+
+                {{#if booleano}}
+                <div class="mount">
+                    <b>Card number: {{card}}</b>
+                </div>
+                {{/if}}
+            </div>
+
+            
+
+            <div style="
+            display : flex;
+            gap: 2rem;
+            position: relative; z-index: 500;
+            flex-wrap: wrap;
+            ">
+            {{#if booleano}}
+                <div>
+                <a href="/transfer" class="transfer-btn">Transfer</a>
+                </div>
+                <div>
+                <a href="/reload" class="transfer-btn">Reload</a>
+                </div>
+            {{else}}
+            <a href="/card" class="transfer-btn">Add a pay card</a>
+            {{/if}}
+            </div>
+        </article>
+    <div class="tble-ctn">
+    <table>
+        
+    <thead>
+        <tr>
+            <th style="padding-left: .5rem;">Movimiento</th>
+            <th>Monto</th>
+            <th>Destinatario</th>
+            <th>Descripcion</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+    {{#each transfs}}
+        <tr>
+            <td style="padding-left: .5rem;">{{name}}</td>
+            <td>{{amount}}</td>
+            <td>{{destiny}}</td>
+            <td>{{description}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+
+    </table>
+    </div>
+
+</main>

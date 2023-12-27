@@ -1,0 +1,124 @@
+body{
+    background: rgb(32, 32, 32);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Titillium Web";
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.mini-text-cont{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-container{
+    height: 80vh;
+    display: flex;
+}
+
+.login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Titillium Web";
+}
+
+.login-form div{
+    color: white;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbl{
+    font-size: 2.2rem;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 1rem 2rem;
+    background:none;
+    outline: 1px solid #ffffff;
+    border-radius: 15px;
+    border: none;
+    width: 25rem;
+    transition: background .3s ease;
+    font-size: 1.2rem;
+}
+
+input:focus{
+    background: white;
+    color: black;
+}
+
+.btn-login{
+    width: 60%;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 2.2rem;
+    border: none;
+    background: rgb(2, 2, 2);
+    transition: background .2s ease-in-out;
+    border-radius: 30px;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background: rgb(15, 94, 191);
+    color: white;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/**/
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h1:hover {
+    font-variation-settings: "wght" 800; 
+    letter-spacing: 2px;
+}

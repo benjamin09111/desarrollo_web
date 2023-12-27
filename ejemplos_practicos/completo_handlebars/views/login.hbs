@@ -1,0 +1,41 @@
+
+
+<main class="main-dis" style="width: 100%; position: relative;">
+
+    <div style="
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 99999;
+    top: 0;
+    left: 50px;
+    ">
+        {{>messages}}
+        {{>badmessages}}
+        {{>errors}}
+    </div>
+
+    <form action="" method="POST" class="login-form shadow">
+            <section class="title-containerh">
+            <h1><a>Unity Bank</a></h1>
+            <h2>Enter with your account</h2>
+            </section>
+
+            <div class="input-container">
+                <label class="lbl">Email</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="input-container">
+                <label class="lbl">Password</label>
+                <input type="password" name="password" placeholder="Your password" required>
+            </div>
+
+                <button class="btn-si" type="submit">Sign in</button>
+
+            <div class="text-container">
+                <p>Not a member? <a href="/register" class="btn-singup">Sign up</a></p>
+            </div>
+</form>
+
+</main>
