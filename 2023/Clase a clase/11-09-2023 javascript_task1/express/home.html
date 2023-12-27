@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --color: blue;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        background: var(--color);
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem 0rem;
+        background: rgb(224, 224, 224);
+    }
+    a{
+        background: blue;
+        color: white;
+        padding: 1rem;
+        border-radius: 15px;
+        margin: 1rem 0rem;
+        text-decoration: none;
+    }
+    a:hover{
+        background: rgb(0, 0, 88);
+    }
+    main{
+        padding: 4rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: rgb(247, 247, 247);
+    }
+    main div{
+        border: 1px solid rgb(35, 32, 255);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem;
+        text-align: center;
+        background: blue;
+        color: white;
+        width: 300px;
+    }
+    main div a{
+        background: white;
+        color: blue;
+        padding: 1rem;
+        border-radius: 15px;
+        width: 60px;
+    }
+    main div a:hover{
+        background: blue;
+        color: white;
+        outline: 1px solid white;
+    }
+    footer{
+        background: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+    }
+    .container{
+        color: white;
+        padding: 2rem;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    @media screen and (max-width: 800px){
+        nav{
+            flex-direction: column;
+            justify-content: center;
+            align-items: none;
+            padding: 0;
+        }
+        a{
+            margin: 0;
+            border-radius: 0;
+        }
+    }
+</style>
+<body>
+    <nav>
+        <a href="">Profile</a>
+        <a href="">Events</a>
+        <a href="#info">Info</a>
+    </nav>
+    <main>
+        <div>
+            <h1>Event</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit praesentium exercitationem voluptates mollitia repellat iure ea id. Quibusdam quae molestiae magnam sunt. Error natus distinctio, aperiam excepturi explicabo officiis.</p>
+            <a href="">Vote</a>
+        </div>
+        <div>
+            <h1>Event</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit praesentium exercitationem voluptates mollitia repellat iure ea id. Quibusdam quae molestiae magnam sunt. Error natus distinctio, aperiam excepturi explicabo officiis.</p>
+            <a href="">Vote</a>
+        </div>
+        <div>
+            <h1>Event</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit praesentium exercitationem voluptates mollitia repellat iure ea id. Quibusdam quae molestiae magnam sunt. Error natus distinctio, aperiam excepturi explicabo officiis.</p>
+            <a href="">Vote</a>
+        </div>
+        <div>
+            <h1>Event</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit praesentium exercitationem voluptates mollitia repellat iure ea id. Quibusdam quae molestiae magnam sunt. Error natus distinctio, aperiam excepturi explicabo officiis.</p>
+            <a href="">Vote</a>
+        </div>
+        <div>
+            <h1>Event</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit praesentium exercitationem voluptates mollitia repellat iure ea id. Quibusdam quae molestiae magnam sunt. Error natus distinctio, aperiam excepturi explicabo officiis.</p>
+            <a href="">Vote</a>
+        </div>
+    </main>
+    <div id="info" class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem odio voluptatibus, voluptate consequatur ab, unde fugit asperiores maiores enim magnam cumque. Enim quod beatae soluta similique rerum odit cum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis vero ullam vitae voluptate tenetur enim blanditiis perferendis aliquid animi ut! Autem porro facere omnis perspiciatis reiciendis ea placeat, reprehenderit nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus nam itaque maiores culpa vitae reiciendis eum ut deserunt! Possimus optio ut incidunt sint ducimus sequi expedita dignissimos beatae, quos dolorum?
+    </div>
+    <footer>
+        All rights reserved.
+    </footer>
+</body>
+</html>

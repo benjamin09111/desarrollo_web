@@ -1,0 +1,7 @@
+**ORDER CLASE WEB**
+
+HTML y CSS
+Mostrar ejemplo html + css y vscode
+Hablar sobre la entrega
+Bootstrap
+Actividad en clase

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    :root{
+        --color-uno: rgb(0, 60, 255);
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: rgb(255, 246, 220);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap: 5rem;
+    }
+
+    .link{
+        padding: 15px;
+        border-radius: 15px;
+        background: var(--color-uno);
+        color: white;
+        transition: all .3s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .link:hover{
+        color: rgb(0, 60, 255);
+        background: white;
+        outline: 1px solid rgb(0, 60, 255);
+    }
+
+    #boton{
+        padding: 15px;
+        border-radius: 15px;
+        background: rgb(0, 60, 255);
+        color: white;
+        transition: all .3s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        border: none;
+    }
+
+    #boton:hover{
+        color: rgb(0, 60, 255);
+        background: white;
+        outline: 1px solid rgb(0, 60, 255);
+        cursor: pointer;
+    }
+
+    input{
+        padding: 15px;
+        border-radius: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        border: none;
+        outline: 1px solid black;
+        transition: all .3s ease;
+    }
+    input:focus{
+        outline: 1px solid rgb(0, 60, 255);
+        background: rgb(223, 223, 223);
+    }
+</style>
+
+<body>
+    <a href="#" class="link">Click here</a>
+    <button type="submit" id="boton">Send here</button>
+    <input placeholder="Write here..." required>
+</body>
+</html>

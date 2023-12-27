@@ -1,0 +1,9 @@
+**ACTIVIDAD CON HTML Y CSS**
+
+Es importante que en su entrega se utilice CSS y Bootstrap. Usted
+decide dónde utilizarlo. No importa cómo lo haga, pero realice:
+
+1. Cree una página de Login.
+2. Cree un HOME con navbar, una card como contenido main y un footer.
+
+Utilice CSS, HTML y BOOSTRAP en ambos puntos.

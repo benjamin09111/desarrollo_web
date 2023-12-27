@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+Declaración del tipo de documento.
+
+<html>
+Elemento raíz que engloba todo el contenido HTML.
+
+<head>
+Encabezado del documento que contiene metadatos y enlaces a recursos externos.
+
+<title>
+Define el título de la página mostrado en la pestaña del navegador.
+
+<meta>
+Proporciona metadatos como la codificación de caracteres y la descripción.
+
+<link>
+Enlace a hojas de estilo CSS u otros recursos.
+
+<script>
+Enlace o define scripts JavaScript.
+
+<body>
+Cuerpo principal del documento que contiene el contenido visible.
+
+<header>
+Encabezado de la página.
+
+<nav>
+Sección de navegación.
+
+<main>
+Contenido principal.
+
+<section>Sección temática.
+
+<article>
+Contenido independiente y completo.
+
+<aside>
+Contenido relacionado o complementario.
+
+<footer>
+Pie de página.
+
+<div>
+Elemento genérico para agrupar y estructurar contenido.
+
+<p>Párrafo de texto.
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+Encabezados de diferentes niveles.
+
+<ul>
+Lista no ordenada.
+
+<ol>
+Lista ordenada.
+
+<li>
+Elemento de lista.
+
+<a>
+Enlace.
+
+<b>
+Negrita.
+
+<img>
+Imagen.
+
+<video>
+Reproductor de video.
+
+<audio>
+Reproductor de audio.
+
+<label>
+Etiqueta para color texto pequeño
+
+<form>
+Formulario de entrada de datos.
+
+<input>
+Campo de entrada.
+
+<textarea>
+Área de texto multilínea.
+
+<button>
+Botón interactivo.
+
+<table>
+Tabla de datos.
+
+<tr>
+Fila de una tabla.
+
+<td>
+Celda de una tabla.

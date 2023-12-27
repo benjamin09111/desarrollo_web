@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsive</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos del Navbar */
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* Estilos del Main */
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .card {
+            width: 300px;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar a {
+                margin: 5px 0;
+            }
+
+            .main {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Card 1 -->
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>Contenido de la tarjeta 1.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>Contenido de la tarjeta 2.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>Contenido de la tarjeta 3.</p>
+        </div>
+    </div>
+</body>
+</html>

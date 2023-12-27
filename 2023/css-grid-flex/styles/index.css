@@ -1,0 +1,41 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    background: beige;
+    padding: 20px;
+}
+
+section{
+    background: khaki;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.buttons{
+    color: white;
+}
+
+.buttons a{
+    color: black;
+}
+
+.buttons a:hover{
+    color: rgb(41, 99, 66);
+}
+
+@media screen and (max-width: 700px){
+    nav, .row{
+        flex-direction: column;
+    }
+}

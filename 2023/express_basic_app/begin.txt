@@ -1,0 +1,5 @@
+npm init -y (crear package json)
+npm i dependences
+npm i nodemon -D
+scripts: npm run script
+ctrl + C para detener ejecucion del programa
